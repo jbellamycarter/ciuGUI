@@ -22,13 +22,18 @@ If you prefer, create a desktop shortcut to run the above command.
 ![Example Screenshot](https://github.com/jbellamycarter/ciuGUI/blob/master/example.jpg)
 
 ### Keyboard Shortcuts
-`<Control>+O` | Open CIU Data files
-`<Return>` | Update Graphs
-`<Control>+S` | Save Processed CIU Data to file
-`<Control>+E` | Export Image to file
+|              |                                 |
+|--------------|---------------------------------|
+|`<Control>+O` | Open CIU Data files             |
+|`<Return>`    | Update Graphs                   |
+|`<Control>+S` | Save Processed CIU Data to file |
+|`<Control>+E` | Export Image to file            |
 
 ### Step-by-step
 1. Once launched, you can select `Open CIU Data` to choose two CIU data sets, these **must** have the same dimensions otherwise they will not be plotted.
 2. You can then give each dataset a name and list the charge state—this software uses $E_{lab}$ values.
 3. (Optional) You can change the smoothing parameters and colormap (following `matplotlib` names) in use.
 4. Select a collision energy to examine and `Update Graphs`—`<Return>` keyboard shortcut.
+
+
+#### Thank You for using ciuGUI!
